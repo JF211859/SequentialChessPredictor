@@ -132,5 +132,5 @@ dmypy.json
 .venv
 
 # Data
-chess.zip
-games.csv
+*.zip
+*.csv

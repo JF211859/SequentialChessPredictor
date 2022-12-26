@@ -94,6 +94,14 @@ python-versions = ">=3.6.0"
 unicode_backport = ["unicodedata2"]
 
 [[package]]
+name = "chess"
+version = "1.9.4"
+description = "A chess library with move generation and validation, Polyglot opening book probing, PGN reading and writing, Gaviota tablebase probing, Syzygy tablebase probing, and XBoard/UCI engine communication."
+category = "main"
+optional = false
+python-versions = ">=3.7"
+
+[[package]]
 name = "colorama"
 version = "0.4.6"
 description = "Cross-platform colored terminal text."
@@ -951,7 +959,7 @@ python-versions = "!=3.0.*,!=3.1.*,!=3.2.*,!=3.3.*,!=3.4.*,>=2.7"
 [metadata]
 lock-version = "1.1"
 python-versions = ">=3.10,<3.12"
-content-hash = "f4baf8e95bdbd32fe6c4cffad6a434b25728fc224aa30c5fe0b86ae506bb51d0"
+content-hash = "20f841d90da8664ffa6b00b4e652402598bdc1b8d47da84c81937f798e39056c"
 
 [metadata.files]
 absl-py = []
@@ -1041,6 +1049,7 @@ cffi = [
     {file = "cffi-1.15.1.tar.gz", hash = "sha256:d400bfb9a37b1351253cb402671cea7e89bdecc294e8016a707f6d1d8ac934f9"},
 ]
 charset-normalizer = []
+chess = []
 colorama = []
 comm = []
 debugpy = []
