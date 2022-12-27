@@ -13,6 +13,7 @@ asyncio = "^3.4.3"
 tensorflow = "^2.11.0"
 kaggle = "^1.5.12"
 chess = "^1.9.4"
+polars = "^0.15.8"
 
 [tool.poetry.dev-dependencies]
 ipykernel = "^6.19.4"
