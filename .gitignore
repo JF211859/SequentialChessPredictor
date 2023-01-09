@@ -134,3 +134,6 @@ dmypy.json
 # Data
 *.zip
 *.csv
+
+# Personal
+TODO
